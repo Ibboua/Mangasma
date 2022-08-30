@@ -1,0 +1,201 @@
+@font-face {
+    font-family: Audiowide; src: url('audiowide-regular.ttf');
+}
+
+header {
+    height: 60px;
+    background-color: rgb(125, 125, 125);
+    box-shadow: 0px 0px 2px rgb(255, 255, 255);
+}
+
+.menu_header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Audiowide;
+    font-size: 20px;
+    display: inline-flex;
+    gap: 10px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.separateur {
+    border-left: 1px solid black;
+    height: 30px;
+    display: inline-block;
+}
+
+.search_bloc {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+    border-radius: 0.4em;
+}
+.bloc_menu a {
+    font-family: Audiowide;
+    font-size: 20px;
+    outline: none;
+    text-decoration: none;
+    transition: color 0.s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 130px;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #868686, #717171);
+    box-shadow:  5px 5px 10px #4f4f4f,
+                -5px -5px 10px #ababab;
+}
+.bloc_menu a:hover{
+    border-radius: 11px;
+    background: #7d7d7d;
+    box-shadow: inset 5px 5px 10px #4f4f4f,
+            inset -5px -5px 10px #ababab;
+}
+
+.bloc_menu a:link, .bloc_menu a:visited {
+    color: black;
+}
+
+.bloc_menu a:hover {
+    color: white;
+}
+
+.power{
+    color: black;
+    outline: none;
+    text-decoration: none;
+    transition: color 0.s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 40px;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #868686, #717171);
+    box-shadow:  5px 5px 10px #4f4f4f,
+                -5px -5px 10px #ababab;
+}
+
+.power:hover{
+    color: white;
+    border-radius: 11px;
+    background: #7d7d7d;
+    box-shadow: inset 5px 5px 10px #4f4f4f,
+            inset -5px -5px 10px #ababab;
+}
+
+.login {
+    color: black;
+    font-family: Audiowide;
+    font-size: 20px;
+    outline: none;
+    text-decoration: none;
+    transition: color 0.s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 90px;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #868686, #717171);
+    box-shadow:  5px 5px 10px #4f4f4f,
+                -5px -5px 10px #ababab;
+}
+
+.login:hover {
+    color: white;
+    border-radius: 11px;
+    background: #7d7d7d;
+    box-shadow: inset 5px 5px 10px #4f4f4f,
+                inset -5px -5px 10px #ababab;
+}
+
+.footer_parent {
+    position: relative;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 9%;
+    width: 100%;
+    margin-top: auto;
+    background-color: rgb(125, 125, 125);
+    box-shadow: 0px 0px 2px rgb(255, 255, 255);
+}
+
+.facebook {
+    height: 40px;
+    width: 40px;
+    border-radius: 17px;
+    background: #7d7d7d;
+    box-shadow:  4px 4px 8px #4f4f4f,
+                -4px -4px 8px #ababab;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 15%;
+    font-size: 150%;
+    margin-left: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.twitter {
+    height: 40px;
+    width: 40px;
+    border-radius: 17px;
+    background: #7d7d7d;
+    box-shadow:  4px 4px 8px #4f4f4f,
+             -4px -4px 8px #ababab;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.900);
+    bottom: 15%;
+    font-size: 150%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.copy{
+    position: absolute;
+    right: 0.5%;
+    text-align: right;
+    bottom: 10%;
+}
+
+.facebook:hover{
+    border-radius: 17px;
+    background: #7d7d7d;
+    box-shadow: inset 4px 4px 8px #4f4f4f,
+            inset -4px -4px 8px #ababab;
+}
+
+.twitter:hover{
+    border-radius: 17px;
+    background: #7d7d7d;
+    box-shadow: inset 4px 4px 8px #4f4f4f,
+            inset -4px -4px 8px #ababab;
+}

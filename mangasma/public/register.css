@@ -1,0 +1,55 @@
+body{
+    background-color: #4f4f4f;
+}
+.formulaire {
+    color: white;
+    width: 20%;
+    height: 80%;
+    margin-left: 45%;
+    margin-top: 7%;
+    padding: 40px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background: #4f4f4f;
+    box-shadow:  -6px -6px 18px #444444,
+                  6px 6px 18px #5a5a5a;
+    font-family: Sans Mono, monospace;
+}
+
+.formulaire h1 {
+    text-align: center;
+}
+
+.formulaire input {
+    margin: 10px;
+    border-style: none;
+}
+
+.separateur {
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+input[type=submit] {
+    padding: 0.5em 2.5em;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(60deg,#f79533,#f37055,#ef4e7b,#a166ab,#5073b8,#1098ad,#07b39b,#6fba82);
+    border-radius: 10em;
+    width: 90%;
+    font-size: 15px;
+}
+
+.bloc {
+    display: flex;
+    justify-content: center;
+}
+
+.bloc a {
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
